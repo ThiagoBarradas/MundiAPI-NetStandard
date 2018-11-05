@@ -54,6 +54,6 @@ namespace Mundipagg.NetStandard
         /// Set secret key
         /// </summary>
         /// <param name="secretKey"></param>
-        void SetSecretKey(string secretKey)
+        void SetSecretKey(string secretKey);
     }
 }
