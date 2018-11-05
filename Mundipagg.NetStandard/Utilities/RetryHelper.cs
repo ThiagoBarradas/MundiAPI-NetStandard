@@ -1,4 +1,5 @@
 using System;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Mundipagg.NetStandard.Utilities
@@ -29,11 +30,8 @@ namespace Mundipagg.NetStandard.Utilities
                 {
                     if (attempts == times)
                         throw;
-#if WINDOWS_UWP || DNXCORE50 || NETSTANDARD1_3
-                    await Task.Delay(delay).ConfigureAwait(false);
-#else
-                    await TaskEx.Delay(delay).ConfigureAwait(false);
-#endif
+
+                    Thread.Sleep(delay);
                 }
             } while (true);
         }
