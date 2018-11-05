@@ -20,7 +20,7 @@
     <PackageId>Mundipagg.NetStandard</PackageId>
     <PackageProjectUrl>https://github.com/ThiagoBarradas/MundiAPI-NetStandard</PackageProjectUrl>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageIconUrl>https://avatars3.githubusercontent.com/u/502340</PackageIconUrl>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/5023402</PackageIconUrl>
     <RepositoryType>https://github.com/ThiagoBarradas/MundiAPI-NetStandard</RepositoryType>
     <PackageTags>mundipagg, sdk, client, dotnet, standard, payment, credit card, bank invoice</PackageTags>
   </PropertyGroup>
